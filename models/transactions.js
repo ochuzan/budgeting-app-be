@@ -1,44 +1,44 @@
 module.exports = [
     {
-      date: "April 1",
+      date: "2021-12-03",
       name: "Groceries",
-      amount: -30,
-      from: "Ideal"
+      amount: -59.21,
+      from: "Stop & Shop"
     },
     {
-      date: "April 1",
-      name: "Shopping",
-      amount: -47,
-      from: "Target"
+      date: "2021-12-04",
+      name: "Food",
+      amount: -30.47,
+      from: "Uber Eats"
     },
     {
-      date: "April 2",
+      date: "2021-12-10",
       name: "Income",
       amount: 2000,
-      from: "Google"
+      from: "Etsy"
     },
     {
-      date: "April 5",
-      name: "Gas",
-      amount: -25,
-      from: "Shell Gas Station"
+      date: "2021-12-14",
+      name: "Metrocard",
+      amount: -2.75,
+      from: "MTA"
     },
     {
-      date: "April 6",
-      name: "Rent",
-      amount: -700,
-      from: "Pike International, LLC"
+      date: "2021-12-23",
+      name: "Music Subscription",
+      amount: -9.99,
+      from: "Spotify"
     },
     {
-      date: "April 8",
+      date: "2021-12-24",
       name: "Income",
       amount: 2000,
-      from: "Google"
+      from: "Etsy"
     },
     {
-      date: "April 8",
-      name: "Groceries",
-      amount: -40,
-      from: "Mr. Kiwi"
+      date: "2021-12-28",
+      name: "Toll",
+      amount: -60,
+      from: "Ez-pass"
     },
   ];

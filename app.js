@@ -1,9 +1,10 @@
 const express = require("express");
 const app = express();
 const transactionsController = require("./controllers/transactionController");
-// const cors = require("cors"); // dont need this yet, will need this with fe
+const cors = require("cors");
 
 app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
     res.send("Welcome to I Need a Budget (INAB)");

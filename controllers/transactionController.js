@@ -43,7 +43,7 @@ transactions.put("/:id", (req, res) => {
     }
 
     let { name, amount, date, from } = req.body;
-    if(name && (Number.isFinite(amount)) && date && from){
+    if(name && (Number.isFinite(Number(amount))) && date && from){
         allTransactions[id] = {
             name, amount, date, from
         };
