@@ -42,10 +42,10 @@ transactions.put("/:id", (req, res) => {
         return;
     }
 
-    let { name, amount, date, from } = req.body;
-    if(name && (Number.isFinite(Number(amount))) && date && from){
+    let { name, amount, date, from, category } = req.body;
+    if(name && (Number.isFinite(Number(amount))) && date && from && category){
         allTransactions[id] = {
-            name, amount, date, from
+            name, amount, date, from, category
         };
         res.json(allTransactions[id]);
     } else {
